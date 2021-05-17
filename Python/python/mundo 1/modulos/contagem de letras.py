@@ -1,0 +1,5 @@
+a = str(input('Digite uma frase: ')).upper().strip()
+a0 = a.replace(' ','')
+print('A letra "a" aparece', a.count('A'), 'vezes nesta frase.')
+print('A letra "a" aparece pela primeira vez no {}º caractere sem considerar espaços.'.format((a0.find('A')+1)))
+print('A letra "a" aparece pela primeira vez no {}º caractere sem considerar espaços.'.format((a0.rfind('A')+1)))
